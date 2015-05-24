@@ -8,12 +8,12 @@
   <p>Created April 2015</p>
   <br>
   <p>
-    <strong>[more on scope/mvp]</strong><br>
-    Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration to create something, which can then be uploaded to a user’s account and viewed by anyone.
+    Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles.
+    <br><br>
+    The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
   </p>
   <br><br>
-  <strong>[add contribute page screenshot, make smaller thumbnails and expand photos when clicked]</strong><br><br>
-  <%= image_tag 'create/create1.png', :alt => 'Home Screenshot' %><br><br>
+  <%= image_tag 'create/create1.png', :rel => 'lightbox', :alt => 'Home Screenshot' %><br><br>
   <%= image_tag 'create/create2.png', :alt => 'Home Screenshot' %><br><br>
   <%= image_tag 'create/create3.png', :alt => 'Profile Screenshot' %>
   <br><br>
