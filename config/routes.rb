@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'tiny_projects/index'
 
+  get 'tiny_projects/about_me'
+
   get 'portfolio/index'
 
   get 'portfolio/create'
