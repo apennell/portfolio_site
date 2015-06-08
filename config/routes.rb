@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
   get 'portfolio/epoch'
 
+  get 'portfolio/mindkit'
+
   get 'site/index'
 
   get 'site/about'
