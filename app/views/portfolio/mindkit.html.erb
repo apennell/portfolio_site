@@ -1,21 +1,32 @@
 <div class="container">
   <h1>MindKit</h1>
 
-  <a href="https://createtoday.herokuapp.com/">Visit App</a>
-  <br>
-  <a href="https://github.com/apennell/create_app">GitHub Repository</a>
+  <a href="https://github.com/apennell/mindKit">GitHub Repository</a>
   <br>
   <p>Created June 2015</p>
   <br>
   <p>
-    <!-- Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles. -->
+    MindKit is a hybrid mobile app that acts as a toolkit for combating depression on a daily basis, largely through the use of cognitive behavioral therapy (CBT). It is built with Ionic using AngularJS and the database is connected with a NodeJS, Express, and PostgreSQL backend API. It is currently in beta in the Ionic View app, but once completed will be available for iOS and Android.
     <br><br>
-    <!-- The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model. -->
+    The initial MVP is the thought log, in which Ionic-Wizard takes the user through a series of questions typical of a CBT automatic negative thought log to analyze a situation and their resulting thoughts and emotions. In the final step, the user is presented with their initial emotions and the strengths at which they reported feeling them and is asked to re-rate the emotions after going through the thought log. The differences between the initial and new emotions are averaged out and the user is shown the percentage of their improvement on this situation. They are also shown a lifetime improvement average and a graph of each entry's improvement on their progress page to see how the exercises are helping.
   </p>
-  
+  <br><br>
+  <div class="row">
+    <div class="col-xs-12 col-md-4 thumbnail">
+      <%= image_tag 'mindkit/mindkit1.png', :alt => 'Home Screenshot' %>
+    </div>
+
+    <div class="col-xs-12 col-md-4 thumbnail">
+      <%= image_tag 'mindkit/mindkit2.png', :alt => 'Thought Log Screenshot' %>
+    </div>
+
+    <div class="col-xs-12 col-md-4 thumbnail">
+      <%= image_tag 'mindkit/mindkit3.png', :alt => 'Progres Screenshot' %>
+    </div>
+  </div>
   <p>
     <strong>MindKit's future</strong>
     <br>
-    <!-- I would like to add image upload functionality to so that visual artists can contribute to Create's online community as well, as this was my initial vision for the app. Once this is completed, there will be a visual design overhaul to the site, displaying thumbnails for each contribution. Additionally, users will have a profile photo. After this, I want to implement the capability for users to "favorite" and follow other users. The final key function I hope to add is a prompt model to the database, which would automatically add the word of the day to the table daily, then add association to a creation and a specific prompt. After this is implemented, users will be able to browse and search creations by prompt. -->
+    There are many additional tools I plan to implement in this app. The first is a set of positive self-affirmations, displayed with Ionic's slide function. The user can add his/her own affirmations and swipe through them to improve self-image and self-talk. I would also like to add a quick daily check in and weekly goal-setting.
   </p>
 </div>

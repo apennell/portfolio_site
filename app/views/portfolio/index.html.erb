@@ -1,13 +1,30 @@
 <div class="container">
-  <h1>Portfolio Projects</h1>
+  <div class="row">
+    <div class="col-12 port-index-header">
+      <center><h1>Portfolio Projects</h1></center>
+    </div>
+  </div>
 
-  <h2>
-    <%= link_to "Create", portfolio_create_path(@create) %>
-  </h2>
-  <h2>
-    <%= link_to "Epoch", portfolio_epoch_path(@epoch) %>
-  </h2>
-  <h2>
-    <%= link_to "MindKit", portfolio_mindkit_path(@mindkit) %>
-  </h2>
+  <div class="row">
+    <div class="col-xs-12 col-md-4 create-index">
+      <h2><%= link_to "Create", portfolio_create_path(@create) %></h2>
+      <strong>JavaScript, Node.js, Express, PostgreSQL, Wordnik API</strong>
+      <br>
+      <p>Daily art prompt community web app</p>
+      <br>
+    </div>
+    <div class="col-xs-12 col-md-4 epoch-index">
+      <h2><%= link_to "Epoch", portfolio_epoch_path(@epoch) %></h2>
+      <strong>Ruby on Rails, AJAX, Devise, Twilio API</strong>
+      <br>
+      <p>Time banking web app</p>
+      <br><br>
+    </div>
+    <div class="col-xs-12 col-md-4 mindkit-index">
+      <h2><%= link_to "MindKit", portfolio_mindkit_path(@mindkit) %></h2>
+      <strong>Ionic, AngularJS, Node.js, Express, PostgreSQL</strong>
+      <p>Depression management hybrid mobile app</p>
+      <br>
+    </div>
+  </div>
 </div>

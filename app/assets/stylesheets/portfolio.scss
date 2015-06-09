@@ -2,8 +2,55 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-img {
-  width: 800px;
+// .create img {
+//   // width: 800px;
+//   border: 4px solid;
+//   border-color: rgba(0,0,0,0.3);
+// }
+
+// .epoch img {
+  // width: 800px;
+  // border: 4px solid;
+  // border-color: rgba(0,0,0,0.3);
+// }
+
+.mindkit img {
   border: 4px solid;
   border-color: rgba(0,0,0,0.3);
+}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+.port-index-header {
+  background-color: #634A68;
+  color: #ECF0F1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.create-index {
+  background-color: #94C255;
+  height: 350px;
+}
+
+.epoch-index {
+  background-color: #EDCD4C;
+  height: 350px;
+}
+
+.mindkit-index {
+  background-color: #E38634;
+  height: 350px;
+}
+
+.add-pad {
+  margin: 10px;
+}
+
+a {
+  color: #634A68;
 }

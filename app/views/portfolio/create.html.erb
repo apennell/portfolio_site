@@ -13,9 +13,17 @@
     The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
   </p>
   <br><br>
-  <%= image_tag 'create/create1.png', :alt => 'Home Screenshot' %><br><br>
-  <%= image_tag 'create/create2.png', :alt => 'Home Screenshot' %><br><br>
-  <%= image_tag 'create/create3.png', :alt => 'Profile Screenshot' %>
+  <div class="row">
+    <div class="col-xs-12 col-md-4 thumbnail">
+      <%= image_tag 'create/create1.png', :alt => 'Home Screenshot' %>
+    </div>
+    <div class="col-xs-12 col-md-4 thumbnail">
+      <%= image_tag 'create/create2.png', :alt => 'Home Screenshot' %>
+    </div>
+    <div class="col-xs-12 col-md-4 thumbnail">
+      <%= image_tag 'create/create3.png', :alt => 'Profile Screenshot' %>
+    </div>
+  </div>
   <br><br>
   <p>
     <strong>Create's future</strong>
