@@ -1,15 +1,14 @@
 <div class="container">
   <h1>Create</h1>
 
-  <a href="https://createtoday.herokuapp.com/">Visit App</a>
-  <br>
-  <a href="https://github.com/apennell/create_app">GitHub Repository</a>
+  <strong><a href="https://createtoday.herokuapp.com/">Visit App</a> | <a href="https://github.com/apennell/create_app">GitHub Repository</a></strong>
   <br>
   <p>Created April 2015</p>
   <br>
   <p>
     Create is a daily art prompt web app built with Node.js, Express, Postgres, and Bootstrap, integrating authentication and authorization. Utilizing Wordnik’s API, a new word appears every day to provide inspiration. Users, called creators, use the prompt to make something in response, which can be posted to the site. All posts ("creations") can be viewed publicly, as well users' public profiles.
-    <br><br>
+  </p>
+  <p>
     The MVP simply allows for a written creation (poem, short story, etc.), but the goal is to add an image upload option so that photographers and visual artists can contribute as well. It has authorization and authentication to allow users to post and delete creations. It currently has a one-to-many association with many creations belonging to one user, but I would like to add a prompt model.
   </p>
   <br><br>
@@ -27,7 +26,8 @@
   <br><br>
   <p>
     <strong>Create's future</strong>
-    <br>
+  </p>
+  <p>
     I would like to add image upload functionality to so that visual artists can contribute to Create's online community as well, as this was my initial vision for the app. Once this is completed, there will be a visual design overhaul to the site, displaying thumbnails for each contribution. Additionally, users will have a profile photo. After this, I want to implement the capability for users to "favorite" and follow other users. The final key function I hope to add is a prompt model to the database, which would automatically add the word of the day to the table daily, then add association to a creation and a specific prompt. After this is implemented, users will be able to browse and search creations by prompt.
   </p>
 </div>
